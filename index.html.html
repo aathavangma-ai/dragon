@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MEPCO Computer Center</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body{
+  margin:0;
+  font-family:Arial;
+  background:#0f172a;
+  color:white;
+}
+
+/* NAVBAR */
+nav{
+  background:#020617;
+  padding:15px;
+  text-align:center;
+}
+nav a{
+  color:white;
+  margin:15px;
+  text-decoration:none;
+}
+nav a:hover{color:#38bdf8;}
+
+/* HERO SLIDESHOW */
+.hero{
+  height:400px;
+  position:relative;
+  overflow:hidden;
+}
+
+/* Slides */
+.slide{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background-size:cover;
+  background-position:center;
+  opacity:0;
+  animation:slideShow 15s infinite;
+}
+
+/* Images */
+.slide:nth-child(1){
+  background-image:url('title 3.jpeg');
+  animation-delay:0s;
+}
+.slide:nth-child(2){
+  background-image:url('title 4.jpeg');
+  animation-delay:5s;
+}
+.slide:nth-child(3){
+  background-image:url('title 5.jpeg');
+  animation-delay:10s;
+}
+.slide:nth-child(3){
+  background-image:url('title 6.jpeg');
+  animation-delay:10s;
+}
+
+/* Animation */
+@keyframes slideShow{
+  0%{opacity:0;}
+  10%{opacity:1;}
+  30%{opacity:1;}
+  40%{opacity:0;}
+  100%{opacity:0;}
+}
+
+/* Dark overlay */
+.hero::after{
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.5);
+  top:0;
+  left:0;
+}
+
+/* Content */
+.hero-content{
+  position:relative;
+  z-index:2;
+  text-align:center;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+.hero h1{
+  font-size:40px;
+}
+.hero p{
+  font-size:18px;
+}
+
+.btn{
+  background:#38bdf8;
+  padding:12px 25px;
+  border:none;
+  color:black;
+  font-weight:bold;
+  cursor:pointer;
+  border-radius:8px;
+}
+.btn:hover{background:#0ea5e9;}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+<a href="#">About US</a>
+<a href="#">Courses</a>
+<a href="#">Projects</a>
+<a href="#">Enquiry</a>
+<a href="#">Gallery</a>
+<a href="#">Contact</a>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+
+  <div class="slide"></div>
+  <div class="slide"></div>
+  <div class="slide"></div>
+
+  <div class="hero-content">
+    <h1>Mepco Computer Education & Project Training Centre</h1>
+    <p>🔥 Admissions Open 2026 🔥</p>
+    <button class="btn">Apply Now</button>
+  </div>
+
+</div>
+
+</body>
+</html>
+
+<section id="about">
+
+<h2 class="about-title">About Us</h2>
+
+<ul class="about-list">
+  <li><b>ISO CERTIFICATE:</b> Our organization provides ISO Certification (ISO 9001:2015 Certified).</li>
+
+  <li><b>MOST ADVANCED COMPUTER LABS:</b> Every student gets an individual system in lab.</li>
+
+  <li><b>MOST EXPERIENCED FACULTY:</b> Training provided for professional & crash courses.</li>
+
+  <li><b>COURSE MATERIALS:</b> Study materials provided for all courses.</li>
+
+  <li><b>PROJECTS:</b> Case studies & project certificates provided for professional courses.</li>
+
+  <li><b>THEORY CLASSROOM:</b> Well-equipped classrooms with large screen display.</li>
+
+  <li><b>JOB PLACEMENT:</b> 100% job assistance in reputed companies.</li>
+
+  <li><b>COURSES:</b> Web Designing, Python, Tally, C, C++, .NET and more.</li>
+
+  <li><b>TRAINING:</b> Practical training with real-time project guidance.</li>
+
+  <li><b>TIMING:</b> 10:00 AM to 8:00 PM.</li>
+
+  <li><b>PAYMENT:</b> Cash or GPay accepted.</li>
+</ul>
+
+</section>
+
+<style>
+.about-list {
+  text-align: left;          
+  max-width: 800px;
+  margin: auto;
+  padding-left: 20px;
+}
+
+.about-list li {
+  margin: 10px 0;
+  font-size: 18px;
+  line-height: 1.6;
+}
+</style>
+
+<section id="courses">
+
+<h2 class="course-title">🚀 Our Premium Courses</h2>
+
+<div class="course-container">
+
+<div class="course-card">
+<h3>💻 Basic Computer</h3>
+<p class="short">MS Office & Basics</p>
+<div class="details">
+✔ MS Word, Excel, PowerPoint  
+✔ Internet & Email Usage  
+✔ Typing Practice  
+✔ Basic Computer Knowledge  
+✔ Certificate Provided  
+</div>
+</div>
+
+<div class="course-card">
+<h3>🌐 Web Designing</h3>
+<p class="short">HTML, CSS, JS</p>
+<div class="details">
+✔ HTML, CSS, JavaScript  
+✔ Responsive Website Design  
+✔ Live Project Training  
+✔ Website Hosting Basics  
+✔ Certificate Provided  
+</div>
+</div>
+
+<div class="course-card">
+<h3>🐍 Python</h3>
+<p class="short">Programming</p>
+<div class="details">
+✔ Python Basics to Advanced  
+✔ Logic Building  
+✔ Real-Time Projects  
+✔ Mini Applications  
+✔ Certificate Provided  
+</div>
+</div>
+
+<div class="course-card">
+<h3>📊 Tally + GST</h3>
+<p class="short">Accounting</p>
+<div class="details">
+✔ Tally ERP 9 / Prime  
+✔ GST Billing & Returns  
+✔ Accounting Basics  
+✔ Invoice Management  
+✔ Certificate Provided  
+</div>
+</div>
+
+<div class="course-card">
+<h3>🎨 Graphic Design</h3>
+<p class="short">Creative</p>
+<div class="details">
+✔ Photoshop & Canva  
+✔ Logo & Poster Design  
+✔ Social Media Creatives  
+✔ Image Editing Skills  
+✔ Certificate Provided  
+</div>
+</div>
+
+<div class="course-card">
+<h3>🧠 Project Training</h3>
+<p class="short">Final Year</p>
+<div class="details">
+✔ Final Year Project Guidance  
+✔ Mini & Main Project  
+✔ Report Preparation  
+✔ Viva Training  
+✔ Certificate Provided  
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="projects">
+<h2>💻 Our Projects</h2>
+<p>We provide real-time student projects for final year and training.</p>
+</section>
+<h2 class="trust-title">⭐ Why Choose Our Center?</h2>
+
+<div class="trust-container">
+
+<div class="trust-card">
+<h3>👨‍🏫 Expert Trainers</h3>
+<p>Experienced staff with real-time knowledge & friendly teaching.</p>
+</div>
+
+<div class="trust-card">
+<h3>💼 100% Practical</h3>
+<p>Only practical classes with live project training.</p>
+</div>
+
+<div class="trust-card">
+<h3>🎓 Certificate</h3>
+<p>Government & private valid certificates provided.</p>
+</div>
+
+<div class="trust-card">
+<h3>📈 Placement Support</h3>
+<p>Job guidance & interview preparation support.</p>
+</div>
+
+</div>
+
+<!-- STATS -->
+<div class="stats">
+
+<div class="stat-box">
+<h2 class="count" data-target="5000">0</h2>
+<p>Students Trained</p>
+</div>
+
+<div class="stat-box">
+<h2 class="count" data-target="1200">0</h2>
+<p>Projects Completed</p>
+</div>
+
+<div class="stat-box">
+<h2 class="count" data-target="50">0</h2>
+<p>Courses Available</p>
+</div>
+
+</div>
+
+</section>
+
+<style>
+#trust{
+padding:60px;
+background:linear-gradient(135deg,#020617,#0f172a);
+text-align:center;
+}
+
+/* TITLE */
+.trust-title{
+font-size:32px;
+color:#38bdf8;
+margin-bottom:40px;
+}
+
+/* CARDS */
+.trust-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.trust-card{
+width:250px;
+margin:15px;
+padding:20px;
+border-radius:15px;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+transition:0.4s;
+}
+
+.trust-card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 20px #38bdf8;
+}
+
+.trust-card h3{
+color:#38bdf8;
+}
+
+/* STATS */
+.stats{
+margin-top:50px;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.stat-box{
+margin:15px;
+padding:20px;
+width:200px;
+border-radius:15px;
+background:#020617;
+box-shadow:0 0 20px rgba(0,0,0,0.5);
+}
+
+.stat-box h2{
+color:#38bdf8;
+font-size:32px;
+}
+
+.stat-box p{
+color:#ccc;
+}
+</style>
+
+<script>
+// COUNT ANIMATION
+let counters=document.querySelectorAll('.count');
+
+counters.forEach(counter=>{
+let update=()=>{
+let target=+counter.getAttribute('data-target');
+let count=+counter.innerText;
+let inc=target/100;
+
+if(count<target){
+counter.innerText=Math.ceil(count+inc);
+setTimeout(update,20);
+}else{
+counter.innerText=target;
+}
+}
+update();
+});
+</script>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Video</title>
+
+<style>
+
+body{
+    margin:0;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#020617,#111827,#000000);
+    color:white;
+}
+
+/* Video box */
+.videoBox{
+    margin-top:60px;
+}
+
+/* Title */
+h2{
+    margin-top:40px;
+    font-size:30px;
+}
+
+/* Video design */
+video{
+    width:400px;
+    border-radius:15px;
+    box-shadow:0 0 25px rgba(0,0,0,0.8);
+}
+
+</style>
+
+</head>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Small Gallery</title>
+
+<style>
+/* ====== Gallery Section ====== */
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#111;
+  color:white;
+  text-align:center;
+}
+
+#myGallery{
+  padding:30px;
+}
+
+#myGallery h2{
+  margin-bottom:20px;
+  color:#38bdf8;
+}
+
+/* Gallery grid */
+.gallery{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:10px;
+}
+
+/* Small image cards */
+.gallery-img{
+  width:120px;
+  height:80px;
+  object-fit:cover;
+  border-radius:8px;
+  cursor:pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-img:hover{
+  transform: scale(1.2);
+  box-shadow: 0 0 15px #0ff;
+}
+
+/* Popup */
+#popup{
+  display:none;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: rgba(0,0,0,0.85);
+  justify-content:center;
+  align-items:center;
+}
+
+#popup img{
+  width:500px;
+  max-width:90%;
+  border-radius:10px;
+}
+</style>
+
+</head>
+<body>
+
+<!-- ====== Gallery Section ====== -->
+<section id="myGallery">
+  <h2>🔥 My Gallery 🔥</h2>
+  <div class="gallery">
+    <img src="23.jpeg" alt="Photo 23" class="gallery-img">
+    <img src="34.jpeg" alt="Photo 34" class="gallery-img">
+    <img src="45.jpeg" alt="Photo 45" class="gallery-img">
+    <img src="56.jpeg" alt="Photo 56" class="gallery-img">
+    <img src="67.jpeg" alt="Photo 67" class="gallery-img">
+    <img src="345.jpeg" alt="Photo 345" class="gallery-img">
+    <img src="346.jpeg" alt="Photo 346" class="gallery-img">
+    <img src="347.jpeg" alt="Photo 347" class="gallery-img">
+    <img src="348.jpeg" alt="Photo 348" class="gallery-img">
+</div>
+</section>
+
+<!-- ====== Popup ====== -->
+<div id="popup">
+  <img id="popup-img">
+</div>
+
+<!-- ====== JS Popup ====== -->
+<script>
+const popup = document.getElementById('popup');
+const popupImg = document.getElementById('popup-img');
+const galleryImgs = document.querySelectorAll('.gallery-img');
+
+galleryImgs.forEach(img=>{
+  img.addEventListener('click', ()=>{
+    popup.style.display = 'flex';
+    popupImg.src = img.src;
+  });
+});
+
+popup.addEventListener('click', (e)=>{
+  if(e.target !== popupImg){
+    popup.style.display = 'none';
+  }
+});
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Video</title>
+
+<style>
+
+body{
+    margin:0;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#020617,#111827,#000000);
+    color:white;
+}
+
+/* Video box */
+.videoBox{
+    margin-top:60px;
+}
+
+/* Title */
+h2{
+    margin-top:40px;
+    font-size:30px;
+}
+
+/* Video design */
+video{
+    width:700px;
+    border-radius:15px;
+    box-shadow:0 0 25px rgba(0,0,0,0.8);
+}
+
+</style>
+
+</head>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Video</title>
+
+<style>
+
+body{
+    margin:0;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#020617,#111827,#000000);
+    color:white;
+}
+
+/* Video box */
+.videoBox{
+    margin-top:60px;
+}
+
+/* Title */
+h2{
+    margin-top:40px;
+    font-size:30px;
+}
+
+/* Video design */
+video{
+    width:500px;
+    border-radius:15px;
+    box-shadow:0 0 25px rgba(0,0,0,0.8);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>My Video Player</h2>
+
+<div class="videoBox">
+<video controls>
+  <source src="mepco.mp4" type="video/mp4">
+</video>
+</div>
+
+</div>
+
+<html>
+<head>
+<title>My Video</title>
+
+<style>
+
+body{
+    margin:0;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#020617,#111827,#000000);
+    color:white;
+}
+
+/* Video box */
+.videoBox{
+    margin-top:60px;
+}
+
+/* Title */
+h2{
+    margin-top:40px;
+    font-size:30px;
+}
+
+/* Video design */
+video{
+    width:300px;
+    border-radius:13px;
+    box-shadow:0 0 25px rgba(0,0,0,0.8);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>My Video Player</h2>
+
+<div class="videoBox">
+<video controls>
+  <source src="title 27.mp4" type="video/mp4">
+</video>
+</div>
+
+</div>
+
+<html>
+<head>
+<title>My Video</title>
+
+<style>
+
+body{
+    margin:0;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#020617,#111827,#000000);
+    color:white;
+}
+
+/* Video box */
+.videoBox{
+    margin-top:60px;
+}
+
+/* Title */
+h2{
+    margin-top:40px;
+    font-size:30px;
+}
+
+/* Video design */
+video{
+    width:300px;
+    border-radius:13px;
+    box-shadow:0 0 25px rgba(0,0,0,0.8);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>My Video Player</h2>
+
+<div class="videoBox">
+<video controls>
+  <source src="title 28.mp4" type="video/mp4">
+</video>
+</div>
+
+</div>
+
+<a href="https://youtube.com/shorts/WSY980mw8eY?si=Q1HVLksXE_GosF9w" target="_blank">
+  <button class="yt-btn">▶ MEPCO Watch on YouTube</button>
+</a>
+
+<style>
+.yt-btn {
+  padding: 15px 35px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(45deg, #ff0000, #ff4b2b);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(255,0,0,0.7);
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect 🔥 */
+.yt-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 25px rgba(255,0,0,1), 0 0 50px rgba(255,75,43,0.8);
+}
+
+/* Click Effect */
+.yt-btn:active {
+  transform: scale(0.95);
+}
+
+/* Animation Glow */
+@keyframes glow {
+  0% { box-shadow: 0 0 10px red; }
+  50% { box-shadow: 0 0 30px orange; }
+  100% { box-shadow: 0 0 10px red; }
+}
+
+.yt-btn {
+  animation: glow 2s infinite;
+}
+</style>
+
+</body>
+</html>
+<section id="admission">
+<h2>🎓 Admission Open 2026</h2>
+
+<div class="admission-box">
+
+<div class="left">
+<h3>Why Join Us?</h3>
+<ul>
+<li>✔ Experienced Trainers</li>
+<li>✔ Real-Time Project Training</li>
+<li>✔ 100% Practical Classes</li>
+<li>✔ Certificate Provided</li>
+<li>✔ Affordable Fees</li>
+</ul>
+</div>
+
+<div class="right">
+<h3>Apply Now</h3>
+
+<input id="name" placeholder="👤 Student Name">
+<input id="phone" placeholder="📱 Mobile Number">
+
+<select id="course">
+<option>Select Course</option>
+<option>Basic Computer</option>
+<option>Web Designing</option>
+<option>Python</option>
+<option>Tally</option>
+<option>Graphic Design</option>
+</select>
+
+<input placeholder="📍 City">
+
+<button onclick="submitForm(); sendWhatsApp();" class="apply-btn">
+🚀 Submit Admission
+</button>
+
+</div>
+
+</div>
+</section>
+
+<style>
+#admission{
+background:linear-gradient(135deg,#0f172a,#1e293b);
+padding:50px;
+border-radius:10px;
+}
+
+.admission-box{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-around;
+align-items:center;
+}
+
+/* LEFT SIDE */
+.left{
+width:300px;
+text-align:left;
+}
+.left ul{
+list-style:none;
+padding:0;
+}
+.left li{
+margin:10px 0;
+font-size:16px;
+}
+
+/* RIGHT SIDE */
+.right{
+background:#020617;
+padding:25px;
+border-radius:15px;
+width:300px;
+box-shadow:0 0 20px #38bdf8;
+}
+
+.right input,.right select{
+width:100%;
+padding:10px;
+margin:10px 0;
+border:none;
+border-radius:8px;
+}
+
+.apply-btn{
+width:100%;
+padding:12px;
+background:#38bdf8;
+border:none;
+border-radius:8px;
+font-weight:bold;
+cursor:pointer;
+}
+
+.apply-btn:hover{
+background:#0ea5e9;
+transform:scale(1.05);
+}
+</style>
+
+<section id="contact">
+<h2>📍 Our Location</h2>
+
+<div class="location-box">
+
+<!-- LEFT SIDE -->
+<div class="location-details">
+<h3>MEPCO Computer Education & Project Training Centre</h3>
+
+<p>📍 No 3743/3A, Second Floor</p>
+<p>Near Thandayuthapani Temple</p>
+<p>West Main Street, Ganesh Nagar</p>
+<p>Pudukkottai - 622001</p>
+
+<p>📞 +9197866 06022</p>
+<p style="color:#25D366; font-weight:bold;">
+  <img src="https://img.icons8.com/color/48/whatsapp.png" width="18">
+  97866 06022
+</p>
+<p>📧 mepco.pudukkottai@gmail.com</p>
+
+<a href="https://www.google.com/maps?q=Ganesh+Nagar+Pudukkottai" target="_blank">
+<button class="map-btn">🚀 Open in Google Maps</button>
+</a>
+
+</div>
+
+<!-- RIGHT SIDE MAP -->
+<div class="map-box">
+<iframe 
+src="https://maps.google.com/maps?q=Ganesh%20Nagar%20Pudukkottai&t=&z=15&ie=UTF8&iwloc=&output=embed">
+</iframe>
+</div>
+
+</div>
+</section>
+
+<style>
+#contact{
+background:linear-gradient(135deg,#020617,#0f172a);
+padding:50px;
+border-radius:10px;
+}
+
+.location-box{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-around;
+align-items:center;
+}
+
+/* LEFT SIDE */
+.location-details{
+width:300px;
+text-align:left;
+}
+
+.location-details h3{
+color:#38bdf8;
+}
+
+.location-details p{
+margin:8px 0;
+}
+
+/* BUTTON */
+.map-btn{
+margin-top:10px;
+padding:10px 20px;
+background:#38bdf8;
+border:none;
+border-radius:8px;
+cursor:pointer;
+font-weight:bold;
+}
+
+.map-btn:hover{
+background:#0ea5e9;
+transform:scale(1.05);
+}
+
+/* MAP */
+.map-box iframe{
+width:350px;
+height:250px;
+border:none;
+border-radius:15px;
+box-shadow:0 0 20px #38bdf8;
+}
+</style>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>Contact Us</h2>
+<p>📞 97866 06022</p>
+<p style="color:#25D366; font-weight:bold;">
+  <img src="https://img.icons8.com/color/48/whatsapp.png" width="18">
+  97866 06022
+</p>
+<p>📍 No 3743/3A, Second Floor
+
+Near Thandayuthapani Temple
+
+West Main Street, Ganesh Nagar
+
+Pudukkottai - 622001</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<p>© 2026 Mepco Computer Center</p>
+</footer>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>WhatsApp Button</title>
+
+<style>
+
+/* 🔥 Container */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(45deg, #25D366, #128C7E);
+  color: white;
+  padding: 12px 18px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-family: Arial;
+  box-shadow: 0 0 15px rgba(37,211,102,0.7);
+  animation: pulse 1.5s infinite;
+  z-index: 1000;
+}
+
+/* 🔥 Icon */
+.whatsapp-float span {
+  font-size: 22px;
+}
+
+/* 🔥 Text */
+.whatsapp-text {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* 🔥 Hover */
+.whatsapp-float:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(37,211,102,1);
+}
+
+/* 🔥 Animation */
+@keyframes pulse {
+  0% { box-shadow: 0 0 10px rgba(37,211,102,0.6); }
+  50% { box-shadow: 0 0 25px rgba(37,211,102,1); }
+  100% { box-shadow: 0 0 10px rgba(37,211,102,0.6); }
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- 🔥 WhatsApp Button -->
+<a href="https://wa.me/919786606022?text=Hello%20Sir%20I%20want%20details" 
+   class="whatsapp-float" target="_blank">
+   💬 Chat with Us
+</a>
+</body>
+</html>
+</style>
+
+<script>
+function scrollToForm(){
+document.getElementById("admission").scrollIntoView({behavior:"smooth"});
+}
+</script>
+
+</body>
+</html>
